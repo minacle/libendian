@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
+PROJECT(endian C)
+
+SET(CMAKE_C_STANDARD 11)
+
+ADD_LIBRARY(endian endian.c endian.h)
